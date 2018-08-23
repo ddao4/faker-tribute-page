@@ -1,0 +1,30 @@
+#image {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+}
+
+#main {
+	text-align: center;
+}
+
+p {
+	text-align:;
+}
+
+
+@media (min-width: 610px)
+{
+	#tribute-info {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+
+@media (min-width: 1160px)
+{
+	#tribute-info {
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+}
