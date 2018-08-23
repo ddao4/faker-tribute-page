@@ -1,15 +1,13 @@
 #image {
-	max-width: 500px;
+	max-width: 600px;
 	width: 100%;
 	height: auto;
+	padding-top: 20px;
 }
 
-#main {
+html, body {
 	text-align: center;
-}
-
-p {
-	text-align:;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -27,4 +25,12 @@ p {
 		padding-left: 350px;
 		padding-right: 350px;
 	}
+}
+
+#title {
+	font-size: 48px;
+}
+
+#subtitle {
+	font-weight: normal;
 }
