@@ -3,6 +3,8 @@
 	width: 100%;
 	height: auto;
 	padding-top: 20px;
+	margin-bottom: -19px;
+
 }
 
 html, body {
@@ -27,10 +29,30 @@ html, body {
 	}
 }
 
+#title-div {
+
+
+}
+
 #title {
-	font-size: 48px;
+	font-size: 72px;
+	margin-bottom: -10px;
 }
 
 #subtitle {
 	font-weight: normal;
+}
+
+#img-div {
+	background-image: url("http://i.imgur.com/CfzLJxp.jpg");
+	margin: 0px -10px 25px -10px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+
+#logo-image {
+	height: 150px;
+	width: 150px;
+	margin-top: -10px;
+    margin-bottom: -35px;
 }
