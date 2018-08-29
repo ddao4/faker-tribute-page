@@ -1,37 +1,9 @@
-#image {
-	max-width: 600px;
-	width: 100%;
-	height: auto;
-	padding-top: 20px;
-	margin-bottom: -19px;
-
-}
-
-html, body {
+* {
 	text-align: center;
-	font-family: 'PT Sans', sans-serif;
-}
-
-
-@media (min-width: 610px)
-{
-	#tribute-info {
-		padding-left: 100px;
-		padding-right: 100px;
-	}
-}
-
-@media (min-width: 1160px)
-{
-	#tribute-info {
-		padding-left: 350px;
-		padding-right: 350px;
-	}
 }
 
 #title-div {
-
-
+	font-family: 'PT Sans', sans-serif;
 }
 
 #title {
@@ -41,18 +13,94 @@ html, body {
 
 #subtitle {
 	font-weight: normal;
+	font-size: 24px;
+}
+
+#image {
+	max-width: 700px;
+	width: 100%;
+	height: auto;
+	margin-bottom: -5px;
 }
 
 #img-div {
 	background-image: url("http://i.imgur.com/CfzLJxp.jpg");
 	margin: 0px -10px 25px -10px;
-	padding-top: 0px;
-	padding-bottom: 15px;
+	padding-top: 30px;
 }
 
-#logo-image {
-	height: 150px;
-	width: 150px;
-	margin-top: -10px;
-    margin-bottom: -35px;
+#img-caption {
+	font-size: 20px;
+    background-color: #404138;
+    color: white;
+    margin-right: -10px;
+    margin-left: -10px;	
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -25px;
 }
+
+#tribute-info {
+	font-family: 'Open Sans', sans-serif;	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-color: #101010;
+	background-color: #13181B;
+	color: white;
+}
+
+hr {
+	border-color: #EDB852;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 18px;
+	line-height: 2em;
+	font-weight: 300;	
+}
+
+#fanart-img {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+}
+
+
+@media (min-width: 610px)
+{
+	#tribute-info {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+}
+
+@media (min-width: 1160px)
+{
+	#tribute-info {
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+
+}
+
+
+
+
+
+
+
+
