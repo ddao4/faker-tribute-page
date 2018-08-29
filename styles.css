@@ -37,6 +37,8 @@
     margin-left: -10px;	
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: -25px;
 }
 
@@ -79,6 +81,15 @@ p {
 }
 
 
+@media (min-width: 400px)
+{
+	#tribute-info {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+}
+
 @media (min-width: 610px)
 {
 	#tribute-info {
@@ -95,6 +106,20 @@ p {
 		padding-right: 350px;
 	}
 
+}
+
+@media (max-width: 800px)
+{
+	#zed-video {
+		width: 500px;
+	}
+}
+
+@media (max-width: 520px)
+{
+	#zed-video {
+		width: 350px;
+	}
 }
 
 
