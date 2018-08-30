@@ -1,5 +1,7 @@
-* {
+html, body {
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	
 }
 
 #title-div {
@@ -12,8 +14,13 @@
 }
 
 #subtitle {
-	font-weight: normal;
 	font-size: 24px;
+}
+
+#img-div {
+	background-image: url("http://i.imgur.com/CfzLJxp.jpg");
+	margin: 0px -10px 25px -10px;
+	padding-top: 30px;
 }
 
 #image {
@@ -23,35 +30,31 @@
 	margin-bottom: -5px;
 }
 
-#img-div {
-	background-image: url("http://i.imgur.com/CfzLJxp.jpg");
-	margin: 0px -10px 25px -10px;
-	padding-top: 30px;
-}
-
 #img-caption {
 	font-size: 20px;
+	color: white;
     background-color: #404138;
-    color: white;
     margin-right: 0px;
     margin-left: -10px;	
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     margin-bottom: -25px;
+    padding: 10px;
+    
 }
 
-#tribute-info {
-	font-family: 'Open Sans', sans-serif;	
+#tribute-info {	
+	background-color: #13181B;
+	color: white;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-top: 15px;
 	margin-left: -10px;
 	margin-right: -10px;
-	background-color: #101010;
-	background-color: #13181B;
-	color: white;
+}
+
+#fanart-img {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
 }
 
 hr {
@@ -74,13 +77,7 @@ p {
 	font-weight: 300;	
 }
 
-#fanart-img {
-	max-width: 1000px;
-	width: 100%;
-	height: auto;
-}
-
-
+/* Text Responsiveness */
 @media (min-width: 400px)
 {
 	#tribute-info {
@@ -108,6 +105,8 @@ p {
 
 }
 
+
+/* Video Size Responsiveness */
 @media (max-width: 800px)
 {
 	#zed-video {
